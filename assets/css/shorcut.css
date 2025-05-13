@@ -1,0 +1,22 @@
+.shortcut{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.shortcut .shortcut-item{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortcut-item img{
+    width: 18px;
+    height: 18px;
+}

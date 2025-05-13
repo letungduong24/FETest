@@ -1,0 +1,83 @@
+.voucher-wrap{
+    padding: 24px 0;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.vouchers{
+    padding: 0 16px;
+    gap: 12px;
+    display: flex;
+    overflow-y: auto;
+}
+
+.voucher{
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid black;
+    border-style: dashed;
+    display: flex;
+    overflow: hidden;
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.voucher .voucher-tag{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    transform: rotate(-45deg);
+    top: -15px;
+    left: -40px;
+}
+
+.voucher-tag p{
+    color: white;
+}
+
+.voucher-image{
+    width: 100px;
+    height: 100px;
+}
+
+.voucher-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.voucher .voucher-info{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.voucher-name{
+    flex: 1;
+}
+
+.voucher-info .bar{
+    width: 65%;
+    height: 4px;
+    margin-top: 8px;
+}
+
+.voucher-info .voucher-get{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.voucher-info .voucher-get a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 8px;
+}

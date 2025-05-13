@@ -1,0 +1,47 @@
+.navbar{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .nav-item{
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    gap: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item img{
+    width: 21.5px;
+    aspect-ratio: 1/1;
+    opacity: 0.4;
+}
+
+
+.badge{
+    position: absolute;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    left: 13px;
+}
+
+.badge p{
+    color: white;
+}
+
+.nav-icon{
+    position: relative;
+}
