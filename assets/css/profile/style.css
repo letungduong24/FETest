@@ -33,3 +33,7 @@
     color: black;
     text-decoration: none;
 }
+
+.menu-item img{
+    width: 24px;
+}
