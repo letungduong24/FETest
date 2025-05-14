@@ -9,6 +9,20 @@ html{
   width: 100%;
 }
 
+.desktop-block {
+  display: none;
+  text-align: center;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #f8d7da;
+  color: #721c24;
+  width: 100%;
+}
+
+body.desktop .desktop-block {
+  display: block;
+}
+
 body {
   font-family: 'Helvetica Neue';
   font-weight: 400; 
