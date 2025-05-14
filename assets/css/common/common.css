@@ -23,9 +23,10 @@ body {
 }
 
 .container {
+  height: 100%;
   width: 100%;
   max-width: 100%;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 
 .top-header{
@@ -51,4 +52,24 @@ body {
     display: flex;
     gap: 8px;
     align-items: center;
+}
+
+.back-button{
+    padding: 16px 22px;
+    position: fixed;
+    border-radius: 16px;
+    bottom: 100px;
+    right: 20px;
+    text-decoration: none;
+    box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
+    -moz-box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
+}
+
+.p16{
+  padding: 16px;
+}
+
+.fade{
+  opacity: 0.6;
 }

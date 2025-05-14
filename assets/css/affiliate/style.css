@@ -1,0 +1,276 @@
+@import url('../common/font.css');
+@import url('../common/color.css');
+@import url('../common/navbar.css');
+@import url('../common/common.css');
+
+.tabs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tab{
+    display: flex;
+    padding: 0 16px 16px 16px;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    opacity: 0.6;
+    border: none;
+    border-bottom: 2px solid rgb(141, 140, 140);
+    background-color: white;
+}
+
+.variable{
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    overflow-y: auto;
+}
+
+.option{
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.option.active{
+    border: 1px solid black;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 24px 16px;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.col1 h2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.details-button{
+    border: none;
+    padding: 20px 8px;
+    display: block;
+    border-radius: 8px;
+}
+
+.col2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
+}
+
+.col2-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.col2-text{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.chart{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.chart img{
+    width: 100%;
+}
+
+.tab.active{
+    opacity: 1;
+}
+
+.tab.active.green{
+    border-bottom: 2px solid #599240;
+}
+
+.tab.active.black{
+    border-bottom: 2px solid black;
+}
+
+.top-products{
+    display: flex;
+    gap: 13px;
+    padding: 16px 0;
+    flex-direction: column;
+}
+
+.top-product{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+}
+
+.top-product img{
+    width: 18%;
+    aspect-ratio: 1/1;
+}
+
+.tp-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px
+}
+
+.tp-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: end;
+}
+
+.tp-action button{
+    padding: 4px 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.aff-orders{
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.aff-order{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aff-order .id{
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.aff-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row1-col1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.aff-status{
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #AFAFAF;
+
+}
+
+.aff-row2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row2-col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.row2-col.right{
+    align-items: end;
+    border-left: 1px solid black;
+}
+
+.col-title{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.aff-row3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.aff-row4{
+    display: flex;
+    gap: 10px;
+    padding: 4px 0;
+    align-items: center;
+}
+
+.aff-info{
+    padding: 24px 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.info-col1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-col1 button{
+    border: none;
+    padding: 20px 8px;
+    border-radius: 8px;
+}
+
+.pending p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.affiliate-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.affiliate-item .row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-id{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.current{
+    display: flex;
+    justify-content: end;
+}

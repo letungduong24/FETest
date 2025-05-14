@@ -1,0 +1,35 @@
+@import url('../common/font.css');
+@import url('../common/color.css');
+@import url('../common/navbar.css');
+@import url('../common/common.css');
+
+.user-info{
+    padding: 24px 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.user-info img{
+    width: 24%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+
+.info{
+    gap: 4px;
+}
+
+.menu{
+    padding: 16px 0;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+}

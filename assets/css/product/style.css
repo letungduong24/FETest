@@ -1,0 +1,19 @@
+@import url('../common/font.css');
+@import url('../common/color.css');
+@import url('../common/navbar.css');
+@import url('../common/common.css');
+
+@import url(./products.css);
+
+.menubar{
+    padding: 8px 4px;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.menubar p{
+    padding: 10px;
+    flex-shrink: 0;
+}

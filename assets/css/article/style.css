@@ -88,15 +88,5 @@
     margin-bottom: 100px;
 }
 
-.back-button{
-    padding: 16px 22px;
-    position: fixed;
-    border-radius: 16px;
-    bottom: 100px;
-    right: 20px;
-    text-decoration: none;
-    box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
-    -webkit-box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
-    -moz-box-shadow: 7px -8px 27px -6px rgba(0,0,0,0.24);
-}
+
 

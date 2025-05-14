@@ -1,7 +1,7 @@
 @import url('../common/font.css');
 @import url('../common/color.css');
 @import url('../common/navbar.css');
-@import url('../common/products.css');
+@import url('../product/products.css');
 @import url('../common/common.css');
 
 @import url('./hero.css');
@@ -10,6 +10,7 @@
 @import url('./voucher.css');
 @import url(./continue.css);
 @import url(./category.css);
+@import url('../vouchers/style.css');
 
 .welcome{
   display: flex;
